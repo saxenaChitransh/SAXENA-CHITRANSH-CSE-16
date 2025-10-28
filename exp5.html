@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ </head>
+ <h2 align="center">Student Registration Form</h2>
+ <hr>
+ <body>
+<form action="page.html"method="post">
+<label>Full Name:</label>
+<input type="text" name="name" placeholder="Enter your Full Name" required><br><br>
+<label>Eamil:</label>
+<input type="email" name="Email" placeholder="Enter your Email" required><br><br>
+<label>Password:</label>
+<input type="password" name="Password" placeholder="Enter your Password" min="10" max="30" required><br><br>
+<label>Gender:</label>
+ <input type="radio" name="gender" value="male" id="male" required />
+ <label for="male">Male</label>
+ <input type="radio" name="gender" value="female" id="female" />
+ <label for="female">Female</label>
+ <input type="radio" name="gender" value="others" id="others" />
+ <label for="others">Others</label><br><br>
+<label>Course:</label>
+ <select>
+ <option>--Select Course--</option>
+ <option value="B.tech">-Btech-</option>
+ <option value="MBA">-MBA-</option>
+ <option value="BBA">-BBA-</option>
+ <option value="BA">-BA-</option>
+  </select><br><br>
+  <label>Contact No.:</label>
+  <input type="tel" name="contact" placeholder="Enter your number" required><br><br>
+<label>Address:</label>
+<textarea id="address" type="text" name="address" placeholder="Enter your address" required></textarea><br><br>
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+<hr>
+</form>
+<footer>Name : Shiv Bhardwaj</footer>
+    <footer>Admission Number : 2025b01010186</footer>
+     <footer>Class : CSE-26</footer>
+ </body>
