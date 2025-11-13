@@ -18,8 +18,8 @@ body{
   margin: 5px;
   text-decoration: none;
 }
-.Float-menu a{
-display: inline;
+.float-menu a{
+  display: inline;
   background-color: #2ecc71;
   color: white;
   padding: 5px;
