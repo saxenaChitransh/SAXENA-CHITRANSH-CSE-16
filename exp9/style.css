@@ -1,0 +1,14 @@
+.wrapper{
+    border: 2px solid red
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.wrapper div{
+    border: 2px solid rgb(255, 0, 174);
+    border-radius: 5px;
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
